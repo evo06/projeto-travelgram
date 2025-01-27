@@ -22,3 +22,25 @@ body{
   background-color: var(--background-color);
   color: var(--text-color-secondary);
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--brand-color);
+  /* text-decoration: underline; */
+
+}
+
+.container{
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+.bg-surface-color{
+  background-color: var(--surface-color);
+  /* border-radius: 8px;
+  padding-block: 16px;
+  padding-inline: 24px; */
+}
