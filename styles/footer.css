@@ -1,0 +1,11 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+  font: var(--text-md);
+}
