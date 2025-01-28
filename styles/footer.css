@@ -1,11 +1,14 @@
 footer{
   display: flex;
+  padding-block: 24px;
+  gap: 24px;
+  text-transform: capitalize;
+
   justify-content: space-between;
-}
-.container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-block: 32px;
   font: var(--text-md);
+  color: var(--text-color-secondary);
 }
+footer span:nth-child(1){
+  margin-right: auto;
+}
+
