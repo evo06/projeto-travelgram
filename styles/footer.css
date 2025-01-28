@@ -3,10 +3,7 @@ footer{
   padding-block: 24px;
   gap: 24px;
   text-transform: capitalize;
-
-  justify-content: space-between;
-  font: var(--text-md);
-  color: var(--text-color-secondary);
+  font: 14px/150% var(--font-family);
 }
 footer span:nth-child(1){
   margin-right: auto;
